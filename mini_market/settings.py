@@ -24,9 +24,8 @@ SECRET_KEY = 'django-insecure-9*r6qcz$0q*ylnb3^)y=#72=d^nf@-bmp_^a8xur50bbni(^(7
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
 ALLOWED_HOSTS = [
-    "mini_market.onrender.com",
+    "https://mini-market-6olo.onrender.com",
     "localhost",
     "127.0.0.1",
 ]
@@ -63,7 +62,7 @@ CORS_ALLOW_ALL_ORIGINS = True # Test jarayonida hamma narsaga ruxsat beradi
 CORS_ALLOW_CREDENTIALS = True
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://mini_market.onrender.com",
+    "https://mini-market-6olo.onrender.com",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 ]
