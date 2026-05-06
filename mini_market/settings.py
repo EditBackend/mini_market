@@ -24,11 +24,8 @@ SECRET_KEY = 'django-insecure-9*r6qcz$0q*ylnb3^)y=#72=d^nf@-bmp_^a8xur50bbni(^(7
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = [
-    "https://mini-market-6olo.onrender.com",
-    "localhost",
-    "127.0.0.1",
-]
+# Render-dagi manzilingizni va mahalliy (localhost) manzilni qo'shib qo'yamiz
+ALLOWED_HOSTS = ['mini-market-6olo.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
